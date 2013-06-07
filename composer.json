@@ -1,5 +1,5 @@
 {
-    "name": "dukt/vimeo",
+    "name": "sidabrinis/vimeo",
     "type": "library",
     "description": "Composer wrapper for Vimeo PHP library",
     "keywords": ["youtube", "vimeo", "video", "videos"],
