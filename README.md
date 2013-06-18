@@ -10,7 +10,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "dukt/vimeo": "0.1.*"
+        "dukt/vimeo": "1.0.*"
     }
 }
 ```
