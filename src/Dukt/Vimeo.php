@@ -481,6 +481,7 @@ class Vimeo
 
         // Make sure our file sizes match up
         foreach ($verify->ticket->chunks as $chunk_check) {
+            $chunk_check = (object) $chunk_check;
             $chunk = $chunks[$chunk_check->id];
 
             if ($chunk['size'] != $chunk_check->size) {
