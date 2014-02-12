@@ -549,7 +549,7 @@ class Vimeo
      */
     public function delete($id)
     {
-        $call = $this->call('vimeo.videos.delete', ['video_id' => $id]);
+        $call = $this->call('vimeo.videos.delete', array('video_id' => $id));
 
         // Confirmation successful, return video id
         if ($call->stat == 'ok')
